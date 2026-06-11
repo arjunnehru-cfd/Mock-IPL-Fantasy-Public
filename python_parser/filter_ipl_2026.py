@@ -3,8 +3,8 @@ import os
 import glob
 import shutil
 
-INPUT_FOLDER   = r"C:\Users\arjun\Downloads\ipl_json"
-ARCHIVE_FOLDER = r"C:\Users\arjun\Downloads\ipl_json_other"
+INPUT_FOLDER   = r"C:\Users\arjun\Downloads\ipl_json"            #Edit your filepath
+ARCHIVE_FOLDER = r"C:\Users\arjun\Downloads\ipl_json_other"      #Folder to move the files that are not of the year you want
 
 os.makedirs(ARCHIVE_FOLDER, exist_ok=True)
 
@@ -22,7 +22,7 @@ for filepath in files:
         season = str(info.get('season', ''))
         event  = info.get('event', {}).get('name', '')
 
-        if 'Indian Premier League' in event and '2026' in season:
+        if 'Indian Premier League' in event and '2026' in season:    # Change to whichever year you want
             kept += 1
         else:
             dest = os.path.join(ARCHIVE_FOLDER, os.path.basename(filepath))
