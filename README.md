@@ -1,3 +1,4 @@
+
 # 🏆 IPL Fantasy Auction & League Dashboard (2026)
 
 A real-time IPL Fantasy Cricket platform featuring a live commissioner draft dashboard, head-to-head form guides, advanced roster optimization, and custom performance metrics. 
@@ -13,3 +14,6 @@ A real-time IPL Fantasy Cricket platform featuring a live commissioner draft das
 2. Rename `firebase-config.example.js` to `firebase-config.js`.
 3. Paste your own Firebase project credentials into the new config file.
 4. Launch `index.html` using a local web server.
+=======
+# Mock-IPL-Fantasy-Public
+Real-time IPL Fantasy Cricket dashboard featuring live commissioner tools, head-to-head form guides, and drag-and-drop roster optimization. Powered by a Firebase backend and a custom Python data pipeline that parses raw ball-by-ball Cricsheet match data into structured fantasy points and 'Moneyball' ROI metrics.
