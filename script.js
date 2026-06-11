@@ -18,18 +18,18 @@ const analytics = getAnalytics(app);
 const CRICAPI_KEY = "YOUR_CRICAPI_KEY_HERE";
 // ─────────────────────────────────────────────────────────────────────────────
 
-// ── CREDENTIALS ───────────────────────────────────────────────────────────────
+// ── CREDENTIALS (PLACEHOLDERS FOR PUBLIC REPO) ────────────────────────────────
 const CREDENTIALS = {
-  "admin":  { password: "pc", role: "admin", teamIndex: -1 },
-  "paulvohra":  { password: "csk", role: "team", teamIndex: 0 },
-  "hande":  { password: "rr", role: "team", teamIndex: 1 },
-  "hitesh":  { password: "rcb", role: "team", teamIndex: 2 },
-  "arjun":  { password: "dc", role: "team", teamIndex: 3 },
-  "deep":  { password: "gt", role: "team", teamIndex: 4 },
-  "vadi":  { password: "lsg", role: "team", teamIndex: 5 },
-  "vaibhav":  { password: "srh", role: "team", teamIndex: 6 },
-  "biswas":  { password: "kkr", role: "team", teamIndex: 7 },
-  "vikram":  { password: "pbks", role: "team", teamIndex: 8 },
+  "admin":  { password: "ADMIN_PASSWORD_HERE", role: "admin", teamIndex: -1 },
+  "user1":  { password: "TEAM0_PASSWORD_HERE", role: "team", teamIndex: 0 },
+  "user2":  { password: "TEAM1_PASSWORD_HERE", role: "team", teamIndex: 1 },
+  "user3":  { password: "TEAM2_PASSWORD_HERE", role: "team", teamIndex: 2 },
+  "user4":  { password: "TEAM3_PASSWORD_HERE", role: "team", teamIndex: 3 },
+  "user5":  { password: "TEAM4_PASSWORD_HERE", role: "team", teamIndex: 4 },
+  "user6":  { password: "TEAM5_PASSWORD_HERE", role: "team", teamIndex: 5 },
+  "user7":  { password: "TEAM6_PASSWORD_HERE", role: "team", teamIndex: 6 },
+  "user8":  { password: "TEAM7_PASSWORD_HERE", role: "team", teamIndex: 7 },
+  "user9":  { password: "TEAM8_PASSWORD_HERE", role: "team", teamIndex: 8 },
 };
 
 // ── POINTS FORMULAS ───────────────────────────────────────────────────────────
