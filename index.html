@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mock IPL Fantasy</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script type="module" src="script.js" defer></script>
+
+</head>
+<body>
+
+
+
+
+<!-- Mobile Phone Screen Optimization -->
+<!-- LOGIN -->
+<div id="login-screen">
+  <div class="login-box">
+    <div class="login-title">IPL FANTASY 2026</div>
+    <div class="login-sub">Log in to view your team's points and standings</div>
+    <div class="login-field">
+      <label>USERNAME</label>
+      <input type="text" id="login-user" placeholder="e.g. team1 or admin" autocomplete="off">
+    </div>
+    <div class="login-field">
+      <label>PASSWORD</label>
+      <input type="password" id="login-pass" placeholder="Your password">
+    </div>
+    <div id="login-error"></div>
+    <button id="login-btn" class="btn-primary" style="width:100%;">LOGIN →</button>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="app" style="display:none;"></div>
+
+<!-- MODAL -->
+<div id="modal-backdrop">
+  <div id="modal-box">
+    <button id="modal-close">✕</button>
+    <div id="modal-title"></div>
+    <div id="modal-body"></div>
+    <div id="modal-footer"></div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+</body>
+</html>

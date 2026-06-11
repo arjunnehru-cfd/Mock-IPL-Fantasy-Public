@@ -1,0 +1,10 @@
+# Hide Real Firebase Credentials
+firebase-config.js
+
+# Hide raw JSON Cricsheet data files (except the processed firebase one)
+*.json
+!matches_firebase.json
+
+# Hide OS/Editor files
+.DS_Store
+.vscode/
